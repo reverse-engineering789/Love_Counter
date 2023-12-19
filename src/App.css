@@ -1,7 +1,85 @@
-.App {
+
+ 
+ .App {
+  background-color: rgb(10, 1, 59);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* You can add other styles here if needed. */
+}
+ 
+ .Heading {
+  margin-top: 50px;
   text-align: center;
+  /* background-color: aqua; */
+  color: wheat;
+  font-size: 50px;
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+.SetOne{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+  /* background-color: rgb(73, 15, 15); */
+  margin-top: 50px;
+}
+
+
+
+.RestartHandler{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.RestartButton{
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 40px;
+  background-color: rgb(17, 122, 141);
+  color: rgb(241, 240, 241);
+}
+
+
+.SubtractButton{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 40px;
+}
+.AddButton{
+  /* padding-top: 10px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 40px;
+}
+
+
+.Display{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  background-color: white;
+}
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +113,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
